@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JSON Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JSON Viewer</h1>
+            <p>Paste your JSON below. Large inputs are handled efficiently with a collapsed view.</p>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <textarea id="json-input" placeholder="Paste JSON here..."></textarea>
+            </div>
+            
+            <div id="json-viewer" class="viewer-section">
+                <div class="placeholder">Rendered JSON will appear here</div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

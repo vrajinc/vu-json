@@ -1,0 +1,42 @@
+{
+    "name": "@jsonview/viewer",
+    "version": "1.0.0",
+    "description": "A lightweight, zero-dependency vanilla JavaScript (ES2015) JSON viewer with pretty-printing and lazy-loaded tree expansion",
+    "main": "json_viewer/app.js",
+    "module": "json_viewer/app.js",
+    "files": [
+        "json_viewer"
+    ],
+    "scripts": {
+        "test": "playwright test",
+        "test:debug": "playwright test --debug",
+        "test:ui": "playwright test --ui"
+    },
+    "keywords": [
+        "json",
+        "viewer",
+        "pretty-print",
+        "vanilla-js",
+        "es2015",
+        "no-dependencies"
+    ],
+    "author": "OpenCode",
+    "license": "MIT",
+    "type": "commonjs",
+    "engines": {
+        "node": ">=4.0.0",
+        "browser": "ES2015"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vrajinc/jsonview"
+    },
+    "bugs": {
+        "url": "https://github.com/vrajinc/jsonview/issues"
+    },
+    "homepage": "https://github.com/vrajinc/jsonview#readme",
+    "devDependencies": {
+        "@playwright/test": "^1.59.1",
+        "@types/node": "^25.6.0"
+    }
+}
