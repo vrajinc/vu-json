@@ -2,8 +2,6 @@
 
 A simple, lightweight vanilla JavaScript JSON viewer. Paste JSON and view it easily locally with no dependencies.
 
-> Fork from [vrajinc](https://github.com/vrajinc) - simplified and optimized for local use
-
 ## Features
 
 - **Zero Dependencies**: Pure vanilla JavaScript
