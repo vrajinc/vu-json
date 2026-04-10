@@ -42,4 +42,4 @@ build:
 serve:
 	@echo "Starting HTTP server on http://localhost:8000"
 	@echo "Open http://localhost:8000/json_viewer/index.html in your browser"
-	python3 -m http.server --directory ./json_viewer 8000 
+	python3 -m http.server --directory ./json_viewer 4422
